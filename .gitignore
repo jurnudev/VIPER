@@ -1,0 +1,36 @@
+# System & Environment
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+.pytest_cache/
+.coverage
+htmlcov/
+build-opencv/
+*.egg-info/
+
+# Node / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.eslintcache
+
+# Outputs: ignore everything except samples
+outputs/*
+!outputs/samples/
+!outputs/samples/**
